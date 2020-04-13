@@ -23,11 +23,11 @@ Datasets available
 The data for this model is relatively simplified as it has very few missing areas. The raw data consists of a training dataset with the features listed above and their corresponding weekly_sales. Twenty percent of this training dataset was split into a test dataset with corresponding weekly_sales so accuracy and error of the model could be determined.
 
 The features in this data set are described as below:
-Store: The store number
-Department: The department number
-Date: date of sale
-IsHoliday: Whether the week is a special holdiay week
-Summary
+- Store: The store number
+- Department: The department number
+- Date: date of sale
+- IsHoliday: Whether the week is a special holdiay week
+#### Summary
 *Using a Random Forest Regressor Model gave the most accurate results. The result was a mean absolute error of 1783.6 with the r-squared score of 95.7%.
 
 This model can be used as a guide when determining Weekly_Sales since it results in a resonable predictions when given information on years of store, department, dates & whether it is a holdiay or not.*
