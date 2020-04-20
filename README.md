@@ -11,7 +11,7 @@ The purpose of this project is to forecast weekly sales for each department in 4
 - Machine Learning Algorithms Used - Linear Regression, Polynomial Transformation, Ridge Regression and Random Forest
 - Evaluation Metrics Used - Mean Absolute Error(MAE) and R-squared
 
-Technologies/Libraries Used
+#### Technologies/Libraries Used
  - Python 3
  - Jupyter
  - Pandas
@@ -23,11 +23,12 @@ Technologies/Libraries Used
 Datasets available
 The data for this model is relatively simplified as it has very few missing areas. The raw data consists of a training dataset with the features listed above and their corresponding weekly_sales. Twenty percent of this training dataset was split into a test dataset with corresponding weekly_sales so accuracy and error of the model could be determined.
 
-The features in this data set are described as below:
+#### The features in this data set are described as below:
 - Store: The store number
 - Department: The department number
 - Date: date of sale
 - IsHoliday: Whether the week is a special holdiay week
+
 #### Summary
 *Using a Random Forest Regressor Model gave the most accurate results. The result was a mean absolute error of 1783.6 with the r-squared score of 95.7%.
 
