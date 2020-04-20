@@ -5,11 +5,12 @@
 The purpose of this project is to forecast weekly sales for each department in 45 stores & also to carry out statistical analysis to help improve financial planning of the national retail store. A forecast is based on historical sales data and is done for a particular period of a time in the near future, usually the next calendar year. A sales forecast enables a company to make informed business decisions regarding inventory or cash flow or plan for growth.
 
 #### Methodology
-Data Wrangling - Analyzed outliers.
-Exploratory Data Analysis - Analyzed the data and summarized the main characteristics & trends.
-Data Visualization - Used boxplot, distribution plot, scatter plot, lineplot & barplot to visualize the data and it's characteristics.
-Machine Learning Algorithms Used - Linear Regression, Polynomial Transformation, Ridge Regression and Random Forest
-Evaluation Metrics Used - Mean Absolute Error(MAE) and R-squared
+- Data Wrangling - Analyzed outliers.
+- Exploratory Data Analysis - Analyzed the data and summarized the main characteristics & trends.
+- Data Visualization - Used boxplot, distribution plot, scatter plot, lineplot & barplot to visualize the data and it's characteristics.
+- Machine Learning Algorithms Used - Linear Regression, Polynomial Transformation, Ridge Regression and Random Forest
+- Evaluation Metrics Used - Mean Absolute Error(MAE) and R-squared
+
 Technologies/Libraries Used
  - Python 3
  - Jupyter
